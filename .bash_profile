@@ -95,17 +95,6 @@ alias nocaps='setxkbmap -option ctrl:nocaps'
 alias auto='nice -7 xterm -e script/autospec &'
 
 
-# rails helpers
-alias rsstart="export RUNNING_SPEC_SERVER=1 && nice -7 rake spec:server:start && unset RUNNING_SPEC_SERVER"
-alias rsstop="rake spec:server:stop && rm tmp/pids/spec_server.pid"
-alias cuke="cucumber --drb -q -r features"
-
-# sshfs to starfire helper
-alias sshdh="sshfs /home/aphoenix/Desktop/starfire resonantstudios@starfire.dreamhost.com:/home/resonantstudios"
-
-alias 2pdf="montage -mode concatenate -tile 3x3 * deck.png && convert *.png -bordercolor white -border 75x40 border.png && convert border* -density 150x150 deck.pdf"
-
-
 #profile for git completion?
 
 
