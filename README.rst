@@ -1,9 +1,12 @@
-Bash Profile
-============
+Bash Profiles
+=============
 
-The bash profile is simple. There are a lot of helpers for personal projects
-and a file to have a pretty spectacular prompt, which I mostly ~~stole~~ borrowed
-from Chris Charles.
+Source each of these in ~/.bash_profile:
+
+source ~/path/to/dotfiles/bash-aliases.sh
+source ~/path/to/dotfiles/git-completion.sh
+source ~/path/to/dotfiles/bash-prompt.sh
+
 
 VIM Profile
 ===========
