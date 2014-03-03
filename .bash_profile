@@ -35,6 +35,6 @@ fi
 # External dotfiles
 source ~/dotfiles/bash-aliases.sh
 source ~/dotfiles/git-completion.sh
-source ~/dotfiles/bash-profile.sh
-source ~/dotfiles/bash-colours.sh
+source ~/dotfiles/bash-prompt.sh
+source ~/dotfiles/bash-colour.sh
 source ~/dotfiles/bash-macports.sh
