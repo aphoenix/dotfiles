@@ -3,9 +3,11 @@ Bash Profiles
 
 Source each of these in ~/.bash_profile:
 
-source ~/path/to/dotfiles/bash-aliases.sh
-source ~/path/to/dotfiles/git-completion.sh
-source ~/path/to/dotfiles/bash-prompt.sh
+source ~/dotfiles/bash-aliases.sh
+source ~/dotfiles/git-completion.sh
+source ~/dotfiles/bash-prompt.sh
+source ~/dotfiles/bash-colour.sh
+source ~/dotfiles/bash-macports.sh
 
 
 VIM Profile
