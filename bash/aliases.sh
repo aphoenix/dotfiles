@@ -27,3 +27,7 @@ alias vib='vi ~/.bash_profile'
 alias b.='. ~/.bash_profile'
 alias nocaps='setxkbmap -option ctrl:nocaps'
 alias auto='nice -7 xterm -e script/autospec &'
+
+#choose virtual environments
+
+alias envsilqe='source ~/envs/silqe/bin/activate'
