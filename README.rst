@@ -1,14 +1,16 @@
 Bash Profiles
 =============
 
-Source each of these in ~/.bash_profile:
+If you are using OSX, then you should create a `.bash_profile` and then source each of these in that file:
 
-* source ~/dotfiles/bash/history.sh
-* source ~/dotfiles/bash/aliases.sh
-* source ~/dotfiles/bash/git-completion.sh  
-* source ~/dotfiles/bash/prompt.sh  
-* source ~/dotfiles/bash/colour.sh  
-* source ~/dotfiles/bash/completion.sh  
+```bash
+source ~/dotfiles/bash/history.sh
+source ~/dotfiles/bash/aliases.sh
+source ~/dotfiles/bash/git-completion.sh  
+source ~/dotfiles/bash/prompt.sh  
+source ~/dotfiles/bash/colour.sh  
+source ~/dotfiles/bash/completion.sh  
+```
 
 Make sure to run `brew install git && brew install bash-completion`
 
