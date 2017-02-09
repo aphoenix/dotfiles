@@ -14,8 +14,8 @@ Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
-Plugin '/jmcantrell/vim-virtualenv'
-Plugin '/davidhalter/jedi-vim'
+Plugin 'jmcantrell/vim-virtualenv'
+Plugin 'davidhalter/jedi-vim'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/nerdtree'
@@ -23,8 +23,6 @@ Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
-
-
 
 
 " All of your Plugins must be added before the following line
@@ -57,16 +55,16 @@ set nu
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4
-"    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=79
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
+    \ softtabstop=4
+    \ shiftwidth=4
+    \ textwidth=79
+    \ expandtab
+    \ autoindent
+    \ fileformat=unix
 au BufNewFile,BufRead *.js, *.html, *.css, *.yaml
     \ set tabstop=2
-    \ set shiftwidth=2
-    \ set fileformat=unix
+    \ shiftwidth=2
+    \ fileformat=unix
 
 
 if has('gui_running')
@@ -76,7 +74,7 @@ else
   colorscheme Zenburn
 endif
 
-call togglebg#map("<F5>")
+"call togglebg#map("<F5>")
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
