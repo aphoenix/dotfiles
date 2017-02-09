@@ -6,6 +6,10 @@ if [ -f /opt/local/etc/bash_completion ]; then
     . /opt/local/etc/bash_completion
 fi
 
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+
 #for ubuntu
 #if [ -f /etc/bash_completion ]; then
 #    . /etc/bash_completion
