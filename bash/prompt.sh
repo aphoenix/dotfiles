@@ -25,7 +25,7 @@ __svn_ps1() {
 }
 
 RED='\[\033[31m\]'
-PURPLE='\[\033[35m\]'
+ENVIRONMENT='\[\033[32m\]'
 
 # Update the prompts.
 awesome_prompt() {
@@ -41,7 +41,7 @@ awesome_prompt() {
     if [[ $VIRTUAL_ENV != "" ]]
         then
           # Strip out the path and just leave the env name
-          venv=" ${PURPLE}(${VIRTUAL_ENV##*/})"
+          venv=" ${ENVIRONMENT}(${VIRTUAL_ENV##*/})"
     else
           # In case you don't have one activated
           venv=''
